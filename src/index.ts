@@ -34,7 +34,7 @@ ${JSON.stringify(body)}
 -----------------------------------------------------------
 `);
   return {
-    body: { test: 'message 4', env: process.env.MONGO_COLLECTION },
+    body: { test: 'message 4', env: process.env.MONGO_COLLECTION || 'null' },
     headers: {
       'content-type': 'application/json'
     }
