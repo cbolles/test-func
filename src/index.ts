@@ -34,7 +34,7 @@ ${JSON.stringify(body)}
 -----------------------------------------------------------
 `);
   return {
-    body: { test: 'message 2' },
+    body: { test: 'message 3' },
     headers: {
       'content-type': 'application/json'
     }
